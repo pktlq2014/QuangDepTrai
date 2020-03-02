@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainUpdate">
+
+    <Toolbar
+        android:id="@+id/toolbar_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_name_update"
+        android:inputType="text"
+        android:hint="Name"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_year_update"
+        android:inputType="text"
+        android:hint="Year of Birth"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_address_update"
+        android:hint="Address"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:text="UPDATE"
+        android:layout_width="200dp"
+        android:layout_height="70dp" />
+    <Button
+        android:id="@+id/btn_delete_update"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:text="DELETE"
+        android:layout_width="200dp"
+        android:layout_height="70dp" />
+
+
+</LinearLayout>

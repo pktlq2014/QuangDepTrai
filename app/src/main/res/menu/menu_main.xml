@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_insert"
+        android:title="Insert"
+        android:icon="@android:drawable/btn_plus"/>
+    <item android:title="Share">
+        <menu>
+            <item
+                android:title="Facebook"
+                android:id="@+id/item_facebook"
+                />
+            <item
+                android:title="Insta"
+                android:id="@+id/item_insta"
+                />
+        </menu>
+    </item>
+</menu>
